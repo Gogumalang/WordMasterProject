@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="083cf92d-34d6-401a-86a8-d88909388544" name="Changes" comment="create Word class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="083cf92d-34d6-401a-86a8-d88909388544" name="Changes" comment="create Word class" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,7 +79,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1694159880466</updated>
-      <workItem from="1694159881647" duration="6497000" />
+      <workItem from="1694159881647" duration="7015000" />
     </task>
     <task id="LOCAL-00001" summary="create Main and WordManager class">
       <option name="closed" value="true" />
