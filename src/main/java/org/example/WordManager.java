@@ -34,6 +34,7 @@ public class WordManager {
 
             if(menu ==0) {
                 wordCRUD.saveList("wordlist.txt");
+                System.out.println("프로그램이 종료되었습니다.");
                 break;
             }
             else if(menu == 4){
@@ -41,6 +42,12 @@ public class WordManager {
             }
             else if(menu ==1){
                 wordCRUD.listAll();
+            }
+            else if(menu == 2) {
+                wordCRUD.listLevel();
+            }
+            else if(menu == 3) {
+                wordCRUD.findWord();
             }
             else if(menu == 5) {
                 wordCRUD.updateWord();

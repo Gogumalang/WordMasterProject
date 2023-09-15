@@ -73,9 +73,29 @@ public class WordCRUD implements ICRUD{
         System.out.println("--------------------------------");
     }
 
-    public String findWord() {
-        System.out.print("=> 수정할 단어 검색 : ");
-        return s.next();
+    public void listLevel() {
+        System.out.print("=> 난이도를 선택하세요 (1,2,3) : ");
+        int level = s.nextInt();
+        s.nextLine();
+        System.out.println("--------------------------------");
+        int j=1;
+        for(int i=0;i<list.size();i++){
+            if(list.get(i).getLevel() == level) {
+                System.out.print((j) + " ");
+                System.out.println(list.get(i).toString());
+                j++;
+            }
+        }
+        System.out.println("--------------------------------");
+
+    }
+
+    public void findWord() {
+        String findword;
+        System.out.print("=> 검색할 단어 검색 : ");
+        findword = s.next();
+        ArrayList<Integer> resultList = listResult(findword);
+        if(resultList.size() == 0) System.out.println("단어가 존재하지 않습니다.");
     }
     public ArrayList<Integer> listResult(String findWord) {
         ArrayList<Integer> imsilist = new ArrayList<>();
@@ -95,7 +115,9 @@ public class WordCRUD implements ICRUD{
     }
 
     public void updateWord() {
-        String findword= findWord();
+        String findword;
+        System.out.print("=> 수정할 단어 검색 : ");
+        findword = s.next();
         ArrayList<Integer> resultList = listResult(findword);
         if(resultList.size() == 0) System.out.println("단어가 존재하지 않습니다.");
         else {
@@ -108,7 +130,9 @@ public class WordCRUD implements ICRUD{
     }
 
     public void deleteWord() {
-        String findword= findWord();
+        String findword;
+        System.out.print("=> 삭제할 단어 검색 : ");
+        findword = s.next();
         ArrayList<Integer> resultList = listResult(findword);
         if(resultList.size() == 0) System.out.println("단어가 존재하지 않습니다.");
         else {
