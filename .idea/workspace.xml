@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="083cf92d-34d6-401a-86a8-d88909388544" name="Changes" comment="create Word class">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="083cf92d-34d6-401a-86a8-d88909388544" name="Changes" comment="Feature Load and Save File">
+      <change afterPath="$PROJECT_DIR$/wordlist.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordCRUD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WordManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +85,7 @@
       <workItem from="1694159881647" duration="8093000" />
       <workItem from="1694499345229" duration="7071000" />
       <workItem from="1694741602836" duration="2812000" />
-      <workItem from="1694755377075" duration="2066000" />
+      <workItem from="1694755377075" duration="2637000" />
     </task>
     <task id="LOCAL-00001" summary="create Main and WordManager class">
       <option name="closed" value="true" />
@@ -138,7 +135,31 @@
       <option name="project" value="LOCAL" />
       <updated>1694236327879</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Feature updateItem">
+      <option name="closed" value="true" />
+      <created>1694758082732</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694758082732</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Feature DeleteItem">
+      <option name="closed" value="true" />
+      <created>1694758109608</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694758109608</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Feature Load and Save File">
+      <option name="closed" value="true" />
+      <created>1694758130441</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694758130441</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +180,9 @@
     <MESSAGE value="create Main and WordManager class" />
     <MESSAGE value="create interface and controller" />
     <MESSAGE value="create Word class" />
-    <option name="LAST_COMMIT_MESSAGE" value="create Word class" />
+    <MESSAGE value="Feature updateItem" />
+    <MESSAGE value="Feature DeleteItem" />
+    <MESSAGE value="Feature Load and Save File" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature Load and Save File" />
   </component>
 </project>
