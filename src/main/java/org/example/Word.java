@@ -1,4 +1,6 @@
 package org.example;
+import java.lang.Integer;
+
 public class Word {
     private int id;
     private int level;
@@ -53,5 +55,10 @@ public class Word {
                 + String.format("%15s",word)+ " " +meaning;
 
         return str;
+    }
+    public String toSaveString() {
+        String id = Integer.toString(this.id);
+        String level = Integer.toString(this.level);
+        return id + "##" + level + "##" + word + "##" + meaning +"\n";
     }
 }
