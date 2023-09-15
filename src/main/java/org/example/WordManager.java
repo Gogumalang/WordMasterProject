@@ -10,7 +10,7 @@ public class WordManager {
         wordCRUD = new WordCRUD(s);
     }
 
-   static int selectMenu() {
+    static int selectMenu() {
         System.out.print("*** 영단어 마스터 ***\n"
                 + "*****************\n"
                 + "1. 모든 단어 보기\n"
@@ -28,15 +28,28 @@ public class WordManager {
     }
     public static void start(){
         wordCRUD = new WordCRUD(s);
+        wordCRUD.loadList("wordlist.txt");
         while(true) {
             int menu = selectMenu();
 
-            if(menu ==0) break;
-            if(menu == 4){
+            if(menu ==0) {
+                wordCRUD.saveList("wordlist.txt");
+                break;
+            }
+            else if(menu == 4){
                 wordCRUD.addWord();
             }
             else if(menu ==1){
                 wordCRUD.listAll();
+            }
+            else if(menu == 5) {
+                wordCRUD.updateWord();
+            }
+            else if(menu == 6) {
+                wordCRUD.deleteWord();
+            }
+            else if(menu == 7) {
+                wordCRUD.saveList("wordlist.txt");
             }
             else break;
         }
